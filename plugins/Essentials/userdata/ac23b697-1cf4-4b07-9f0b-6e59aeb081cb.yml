@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.138.94.27
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773713090955
+  login: 1773712935200
+money: '0'
+last-account-name: Jbeny09
+logoutlocation:
+  world: 89420592-27af-4048-bacb-3fc5630416b9
+  world-name: world
+  x: -292.84634953553297
+  y: 89.52709578281338
+  z: 337.09233252538087
+  yaw: 42.431217193603516
+  pitch: 40.95004653930664
