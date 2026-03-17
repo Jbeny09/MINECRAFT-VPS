@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1773715484956
+  lastteleport: 1773719831912
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1773713949978
+  logout: 1773721019277
+  login: 1773719935293
 money: '0'
 last-account-name: Jbeny09
 lastlocation:
-  world: 5406d95d-0bdf-42d7-af71-41ee9d71025f
+  world: febd9325-c905-4290-b8c4-73f1ac5c3dbb
   world-name: world
-  x: -765.6013438469948
-  y: 114.83479077051739
-  z: -95.42416179175927
-  yaw: 115.04925537109375
-  pitch: 57.4500617980957
+  x: -4.5
+  y: 84.0
+  z: -7.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0c3500c9-6ff2-4aa1-b78e-91e6db914a16
+  world-name: world
+  x: -185.69999998807907
+  y: -33.0
+  z: 67.30000001192093
+  yaw: 23.250640869140625
+  pitch: 2.849999189376831

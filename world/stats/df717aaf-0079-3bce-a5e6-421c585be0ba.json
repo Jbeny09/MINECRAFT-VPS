@@ -1,55 +1,79 @@
 {
   "stats": {
-    "minecraft:killed": {
-      "minecraft:zombie": 1
-    },
-    "minecraft:dropped": {
-      "minecraft:splash_potion": 1,
-      "minecraft:red_shulker_box": 2
-    },
-    "minecraft:mined": {
-      "minecraft:short_grass": 9,
-      "minecraft:tall_grass": 2,
-      "minecraft:dandelion": 1,
-      "minecraft:cobweb": 1
-    },
-    "minecraft:picked_up": {
-      "minecraft:string": 1,
-      "minecraft:splash_potion": 1
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 21680,
+      "minecraft:walk_one_cm": 6813,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 72,
+      "minecraft:mob_kills": 4,
+      "minecraft:damage_taken": 10,
+      "minecraft:play_time": 21680,
+      "minecraft:damage_dealt": 320,
+      "minecraft:jump": 142,
+      "minecraft:time_since_death": 21680,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 19912,
+      "minecraft:fall_one_cm": 1909,
+      "minecraft:total_world_time": 21680,
+      "minecraft:swim_one_cm": 2063,
+      "minecraft:fly_one_cm": 8068,
+      "minecraft:walk_on_water_one_cm": 1449,
+      "minecraft:crouch_one_cm": 16074,
+      "minecraft:sneak_time": 8842
     },
     "minecraft:used": {
-      "minecraft:golden_apple": 9,
-      "minecraft:elytra": 28,
-      "minecraft:netherite_chestplate": 27,
-      "minecraft:netherite_sword": 44,
-      "minecraft:totem_of_undying": 1,
-      "minecraft:tnt_minecart": 2,
-      "minecraft:mace": 9,
-      "minecraft:bow": 4,
-      "minecraft:firework_rocket": 30,
-      "minecraft:rail": 2
+      "minecraft:spruce_log": 1,
+      "minecraft:stone_axe": 5,
+      "minecraft:cobbled_deepslate": 23,
+      "minecraft:diamond_pickaxe": 282,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_pickaxe": 137,
+      "minecraft:andesite": 1,
+      "minecraft:furnace": 1,
+      "minecraft:stone_pickaxe": 89,
+      "minecraft:dirt": 2
     },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 29968,
-      "minecraft:walk_one_cm": 24517,
-      "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 1413,
-      "minecraft:damage_dealt": 1978,
-      "minecraft:play_time": 29968,
-      "minecraft:damage_absorbed": 458,
-      "minecraft:open_shulker_box": 5,
-      "minecraft:jump": 279,
-      "minecraft:time_since_death": 29968,
-      "minecraft:damage_dealt_absorbed": 340,
-      "minecraft:aviate_one_cm": 71679,
-      "minecraft:drop": 3,
-      "minecraft:sprint_one_cm": 38743,
-      "minecraft:fall_one_cm": 33225,
-      "minecraft:total_world_time": 29968,
-      "minecraft:fly_one_cm": 221049,
-      "minecraft:crouch_one_cm": 71,
-      "minecraft:sneak_time": 417,
-      "minecraft:player_kills": 2
+    "minecraft:mined": {
+      "minecraft:spruce_log": 8,
+      "minecraft:andesite": 3,
+      "minecraft:coal_ore": 8,
+      "minecraft:spruce_leaves": 2,
+      "minecraft:deepslate_gold_ore": 18,
+      "minecraft:gravel": 17,
+      "minecraft:tuff": 29,
+      "minecraft:fern": 1,
+      "minecraft:deepslate": 330,
+      "minecraft:furnace": 1,
+      "minecraft:deepslate_diamond_ore": 67,
+      "minecraft:crafting_table": 2,
+      "minecraft:deepslate_redstone_ore": 2,
+      "minecraft:large_fern": 2,
+      "minecraft:stone": 33
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 33,
+      "minecraft:black_wool": 4,
+      "minecraft:flint": 1,
+      "minecraft:gravel": 16,
+      "minecraft:crafting_table": 2,
+      "minecraft:redstone": 9,
+      "minecraft:cobbled_deepslate": 329,
+      "minecraft:andesite": 3,
+      "minecraft:spruce_log": 8,
+      "minecraft:tuff": 29,
+      "minecraft:coal": 8,
+      "minecraft:raw_gold": 18,
+      "minecraft:furnace": 1,
+      "minecraft:diamond": 67,
+      "minecraft:mutton": 6
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 4
+    },
+    "minecraft:crafted": {
+      "minecraft:spruce_planks": 16,
+      "minecraft:diamond_pickaxe": 1
     }
   },
   "DataVersion": 4671
