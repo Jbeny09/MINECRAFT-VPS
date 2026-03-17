@@ -1,0 +1,56 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:splash_potion": 1,
+      "minecraft:red_shulker_box": 2
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 9,
+      "minecraft:tall_grass": 2,
+      "minecraft:dandelion": 1,
+      "minecraft:cobweb": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:string": 1,
+      "minecraft:splash_potion": 1
+    },
+    "minecraft:used": {
+      "minecraft:golden_apple": 9,
+      "minecraft:elytra": 28,
+      "minecraft:netherite_chestplate": 27,
+      "minecraft:netherite_sword": 44,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:tnt_minecart": 2,
+      "minecraft:mace": 9,
+      "minecraft:bow": 4,
+      "minecraft:firework_rocket": 30,
+      "minecraft:rail": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 29968,
+      "minecraft:walk_one_cm": 24517,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 1413,
+      "minecraft:damage_dealt": 1978,
+      "minecraft:play_time": 29968,
+      "minecraft:damage_absorbed": 458,
+      "minecraft:open_shulker_box": 5,
+      "minecraft:jump": 279,
+      "minecraft:time_since_death": 29968,
+      "minecraft:damage_dealt_absorbed": 340,
+      "minecraft:aviate_one_cm": 71679,
+      "minecraft:drop": 3,
+      "minecraft:sprint_one_cm": 38743,
+      "minecraft:fall_one_cm": 33225,
+      "minecraft:total_world_time": 29968,
+      "minecraft:fly_one_cm": 221049,
+      "minecraft:crouch_one_cm": 71,
+      "minecraft:sneak_time": 417,
+      "minecraft:player_kills": 2
+    }
+  },
+  "DataVersion": 4671
+}

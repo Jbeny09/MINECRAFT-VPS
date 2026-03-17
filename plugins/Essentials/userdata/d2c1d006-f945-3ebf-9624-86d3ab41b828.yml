@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.149.99.91
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1773713949976
+money: '0'
+last-account-name: kalel4940
+lastlocation:
+  world: 5406d95d-0bdf-42d7-af71-41ee9d71025f
+  world-name: world
+  x: -2.9234882531096997
+  y: 84.79673560066871
+  z: -11.930116354936168
+  yaw: 118.5000228881836
+  pitch: 30.90000343322754
