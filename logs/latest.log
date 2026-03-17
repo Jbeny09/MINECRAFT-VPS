@@ -1,114 +1,260 @@
-[05:53:29] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1044-azure (amd64)
-[05:53:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[05:53:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:53:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PokemonGO.jar'...
-[05:53:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PokemonGO.jar' in 479ms.
-[05:53:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[05:53:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Essentials (2.21.2), EssentialsChat (2.21.2), PokemonGO (4.0)
-[05:53:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:53:36] [ServerMain/INFO]: Loaded 1290 recipes
-[05:53:36] [ServerMain/INFO]: Loaded 1399 advancements
-[05:53:37] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[05:53:37] [Server thread/INFO]: Loading properties
-[05:53:37] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[05:53:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:53:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:53:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:53:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[05:53:38] [Server thread/INFO]: Default game type: SURVIVAL
-[05:53:38] [Server thread/INFO]: Generating keypair
-[05:53:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:53:38] [Server thread/INFO]: Using epoll channel type
-[05:53:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:53:38] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[05:53:38] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[05:53:46] [Server thread/WARN]: Legacy plugin PokemonGO v4.0 does not specify an api-version.
-[05:53:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[05:53:46] [Server thread/INFO]: [PokemonGO] Loading server plugin PokemonGO v4.0
-[05:53:46] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[05:53:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:53:46] [Server thread/INFO]: Preparing level "world"
-[05:53:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:53:47] [Server thread/INFO]: Time elapsed: 962 ms
-[05:53:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:53:47] [Server thread/INFO]: Time elapsed: 185 ms
-[05:53:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:53:47] [Server thread/INFO]: Time elapsed: 124 ms
-[05:53:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[05:53:48] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[05:53:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[05:53:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[05:53:49] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[05:53:49] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[05:53:49] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[05:53:49] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[05:53:49] [Server thread/INFO]: [Essentials] Using locale en
-[05:53:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[05:53:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[05:53:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[05:53:49] [Server thread/INFO]: [PokemonGO] Enabling PokemonGO v4.0*
-[05:53:49] [Server thread/INFO]: [PokemonGO] [STDOUT] §4[§1Pokemon§6GO§4]§r §aenabled
-[05:53:49] [Server thread/WARN]: Nag author(s): '[Cryxotic]' of 'PokemonGO v4.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[05:53:49] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[05:53:49] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[05:53:50] [Server thread/INFO]: [spark] Starting background profiler...
-[05:53:50] [Server thread/INFO]: Done preparing level "world" (3.925s)
-[05:53:50] [Server thread/INFO]: Running delayed init tasks
-[05:53:50] [Server thread/INFO]: Done (21.663s)! For help, type "help"
-[05:53:50] [Server thread/INFO]: Timings Reset
-[05:53:50] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[05:53:51] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Unable to check your version! Self-built? Build information: id:'2.21.2' branch:'2.x' isDev:false.
-[05:54:15] [Server thread/INFO]: Server Plugins (3):
-[05:54:15] [Server thread/INFO]: Bukkit Plugins:
-[05:54:15] [Server thread/INFO]:  - Essentials, EssentialsChat, *PokemonGO
-[05:54:28] [Server thread/INFO]: Stopping the server
-[05:54:28] [Server thread/INFO]: Stopping server
-[05:54:28] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[05:54:28] [Server thread/INFO]: [PokemonGO] Disabling PokemonGO v4.0
-[05:54:28] [Server thread/INFO]: [PokemonGO] [STDOUT] §4[§1Pokemon§6GO§4]§r §cenabled
-[05:54:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[05:54:28] [Server thread/INFO]: Saving players
-[05:54:28] [Server thread/INFO]: Saving worlds
-[05:54:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.27s
-[05:54:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
-[05:54:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:54:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
-[05:54:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:54:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:54:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:54:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:33:04] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1044-azure (amd64)
+[06:33:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.9-59-main@0ff899d (2025-10-07T11:49:59Z) for Minecraft 1.21.9
+[06:33:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:33:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2-2025.2.1.jar'...
+[06:33:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2-2025.2.1.jar' in 3887ms.
+[06:33:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[06:33:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - SuperiorSkyblock2 (2025.2.1), ViaBackwards (5.7.2), ViaRewind (4.0.15), ViaVersion (5.7.2)
+[06:33:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:33:17] [ServerMain/INFO]: Loaded 1461 recipes
+[06:33:17] [ServerMain/INFO]: Loaded 1574 advancements
+[06:33:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:33:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 498.7ms
+[06:33:18] [Server thread/INFO]: Starting minecraft server version 1.21.9
+[06:33:18] [Server thread/INFO]: Loading properties
+[06:33:18] [Server thread/INFO]: This server is running Paper version 1.21.9-59-main@0ff899d (2025-10-07T11:49:59Z) (Implementing API version 1.21.9-R0.1-SNAPSHOT)
+[06:33:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:33:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:33:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:33:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:33:19] [Server thread/INFO]: Default game type: SURVIVAL
+[06:33:19] [Server thread/INFO]: Generating keypair
+[06:33:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:33:19] [Server thread/INFO]: Using epoll channel type
+[06:33:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:33:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:33:20] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loading 1 libraries... please wait
+[06:33:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.pom
+[06:33:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.pom
+[06:33:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
+[06:33:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.pom
+[06:33:22] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.pom
+[06:33:22] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.pom
+[06:33:22] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.pom
+[06:33:23] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar
+[06:33:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[06:33:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[06:33:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[06:33:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[06:33:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[06:33:25] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/MINECRAFT-VPS/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[06:33:27] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.2
+[06:33:27] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.2 is now loaded. Registering protocol transformers and injecting...
+[06:33:27] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:33:28] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:33:28] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:33:28] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:33:29] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:33:29] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.2
+[06:33:29] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.15
+[06:33:29] [Server thread/INFO]: [SuperiorSkyblock2] Loading server plugin SuperiorSkyblock2 v2025.2.1
+[06:33:30] [Server thread/WARN]: [SuperiorSkyblock2] Ignoring attempt to change parent of plugin logger
+[06:33:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:33:30] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.15
+[06:33:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:33:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:33:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:33:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:33:30] [Server thread/INFO]: Preparing level "world"
+[06:33:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:33:30] [Server thread/INFO]: Preparing spawn area: 100%
+[06:33:30] [Server thread/INFO]: Prepared spawn area in 2 ms
+[06:33:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:33:30] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:33:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:33:30] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:33:30] [Server thread/INFO]: Done preparing level "world" (0.556s)
+[06:33:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.2
+[06:33:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.9-1.21.10 (773)
+[06:33:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.2
+[06:33:30] [Server thread/INFO]: [SuperiorSkyblock2] Enabling SuperiorSkyblock2 v2025.2.1
+[06:33:30] [Server thread/WARN]: [SuperiorSkyblock2] [safe_blocks.yml] There are no valid safe blocks! Generating default ones...
+[06:33:32] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6541ms.
+[06:33:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/KillsMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/BrewingMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/CraftingMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/BlocksMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/CraftingMissions.jar' in 68ms.
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/FishingMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/KillsMissions.jar' in 98ms.
+[06:33:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/ItemsMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/FishingMissions.jar' in 60ms.
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/FarmingMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/BrewingMissions.jar' in 140ms.
+[06:33:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/EnchantingMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/BlocksMissions.jar' in 145ms.
+[06:33:38] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/StatisticsMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/FarmingMissions.jar' in 68ms.
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/IslandMissions.jar'...
+[06:33:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/ItemsMissions.jar' in 100ms.
+[06:33:38] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/StatisticsMissions.jar' in 91ms.
+[06:33:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/IslandMissions.jar' in 50ms.
+[06:33:39] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperiorSkyblock2/modules/missions/EnchantingMissions.jar' in 119ms.
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_1
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_2
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_3
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_4
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_5
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_4
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_3
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_2
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_1
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_2
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_5
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_1
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_4
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_3
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_3
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_1
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_2
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_2
+[06:33:39] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_1
+[06:33:40] [Server thread/ERROR]: No key layers in MapLike[{}]
+[06:33:40] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:superiorworld'...
+[06:33:40] [Server thread/INFO]: Prepared spawn area in 0 ms
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module bank...
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module bank (Took 5ms)
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module missions...
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module missions (Took 3ms)
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module generators...
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module generators (Took 10ms)
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module upgrades...
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module upgrades (Took 42ms)
+[06:33:40] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages started...
+[06:33:41] [Server thread/INFO]: [SuperiorSkyblock2]  - Found 741 messages in the language files.
+[06:33:41] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages done (Took 753ms)
+[06:33:41] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_nether.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_nether.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_the_end.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_the_end.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_nether.schematic (DefaultSchematicParser)
+[06:33:51] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_the_end.schematic (DefaultSchematicParser)
+[06:33:52] [Server thread/INFO]: [SuperiorSkyblock2] Trying to connect to local database (SQLite)...
+[06:33:52] [Server thread/INFO]: [SuperiorSkyblock2] Successfully established connection with local database!
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Creating a backup file...
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Backup done!
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load players...
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 0 players (Took 2ms)
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load islands...
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 0 islands (Took 16ms)
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load grid...
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Finished grid!
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load stacked blocks...
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Finished stacked blocks!
+[06:33:53] [Server thread/INFO]: [spark] Starting background profiler...
+[06:33:53] [Server thread/INFO]: Running delayed init tasks
+[06:33:53] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:33:53] [Server thread/INFO]: [SuperiorSkyblock2] Detected PaperSpigot - Using async chunk-loading support with PaperMC.
+[06:33:53] [Server thread/INFO]: Done (50.296s)! For help, type "help"
+[06:33:54] [User Authenticator #0/INFO]: UUID of player Jbeny09 is df717aaf-0079-3bce-a5e6-421c585be0ba
+[06:33:54] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SuperiorSkyblock2]
+[06:33:55] [Server thread/INFO]: Jbeny09 joined the game
+[06:33:55] [Server thread/INFO]: Jbeny09[/127.138.94.27:56717] logged in with entity id 1 at ([world]177.30000001192093, 63.0, 9.639660470869856)
+[06:34:02] [Server thread/INFO]: Jbeny09 issued server command: /clear
+[06:34:02] [Server thread/INFO]: [Jbeny09: Removed 1 item(s) from player Jbeny09]
+[06:34:07] [User Authenticator #0/INFO]: UUID of player kalel4940 is d2c1d006-f945-3ebf-9624-86d3ab41b828
+[06:34:08] [Server thread/INFO]: kalel4940 joined the game
+[06:34:08] [Server thread/INFO]: kalel4940[/127.149.99.91:58339] logged in with entity id 434 at ([world]177.06178267678763, 63.60391223819511, 12.368161534895933)
+[06:34:09] [Server thread/INFO]: Jbeny09 issued server command: /is
+[06:34:22] [Server thread/INFO]: Jbeny09 issued server command: /is help
+[06:34:35] [Server thread/INFO]: Jbeny09 issued server command: /is admin
+[06:34:47] [Server thread/INFO]: Jbeny09 issued server command: /is create kalebhitam
+[06:34:59] [Async Chat Thread - #0/INFO]: [Not Secure] <kalel4940> \
+[06:34:59] [Server thread/INFO]: Jbeny09 issued server command: /is invite kalel4940
+[06:35:10] [Server thread/INFO]: Made kalel4940 a server operator
+[06:35:13] [Server thread/INFO]: kalel4940 issued server command: /island create
+[06:35:26] [Server thread/INFO]: Jbeny09 issued server command: /tp kalel4940 Jbeny09
+[06:35:26] [Server thread/INFO]: [Jbeny09: Teleported kalel4940 to Jbeny09]
+[06:35:31] [Server thread/INFO]: kalel4940 issued server command: /island create
+[06:35:31] [Server thread/INFO]: Jbeny09 issued server command: /gms
+[06:35:35] [Server thread/INFO]: Jbeny09 issued server command: /gamemode survival
+[06:35:35] [Server thread/INFO]: [Jbeny09: Set own game mode to Survival Mode]
+[06:35:43] [Server thread/INFO]: Jbeny09 issued server command: /is
+[06:35:52] [Server thread/INFO]: kalel4940 issued server command: /island create block normal
+[06:35:53] [Server thread/WARN]: kalel4940 moved too quickly! -5.608366915986835,-1.0,604.4566529392592
+[06:35:57] [Server thread/INFO]: Jbeny09 issued server command: /is add kalel4940
+[06:36:01] [Server thread/INFO]: Jbeny09 issued server command: /is add kalel4940
+[06:36:01] [Server thread/INFO]: kalel4940 has made the advancement [A Seedy Place]
+[06:36:06] [Server thread/INFO]: Jbeny09 issued server command: /tp kalel4940
+[06:36:06] [Server thread/INFO]: [Jbeny09: Teleported Jbeny09 to kalel4940]
+[06:36:21] [Server thread/INFO]: kalel4940 issued server command: /island invite Jbeny09
+[06:36:25] [Server thread/INFO]: Jbeny09 issued server command: /island accept kalel4940
+[06:36:31] [Server thread/INFO]: Jbeny09 issued server command: /mvtp
+[06:36:35] [Server thread/INFO]: Jbeny09 issued server command: /is
+[06:36:35] [Server thread/WARN]: Jbeny09 moved too quickly! 1.848801025494481,2.0,-604.5371182958842
+[06:36:39] [Server thread/INFO]: Jbeny09 issued server command: /tp kalel4940
+[06:36:39] [Server thread/INFO]: [Jbeny09: Teleported Jbeny09 to kalel4940]
+[06:36:45] [Server thread/INFO]: Jbeny09 issued server command: /island accept kalel4940
+[06:36:47] [Server thread/INFO]: kalel4940 has made the advancement [Hot Stuff]
+[06:37:06] [Server thread/INFO]: Jbeny09 issued server command: /is admin bypass
+[06:37:15] [Server thread/INFO]: Made kalel4940 no longer a server operator
+[06:39:45] [Server thread/INFO]: kalel4940 lost connection: Disconnected
+[06:39:46] [Server thread/INFO]: kalel4940 left the game
+[06:42:23] [Server thread/INFO]: Jbeny09 lost connection: Disconnected
+[06:42:23] [Server thread/INFO]: Jbeny09 left the game
+[06:42:52] [Server thread/INFO]: Stopping the server
+[06:42:52] [Server thread/INFO]: Stopping server
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Disabling SuperiorSkyblock2 v2025.2.1
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module bank...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module missions...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module generators...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module upgrades...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down stats client...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down calculation task...
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down executor
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] This can take up to 20 seconds to complete
+[06:42:52] [Server thread/INFO]: [SuperiorSkyblock2] Closing database. This may hang the server. Do not shut it down, or data may get lost.
+[06:42:52] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.15
+[06:42:52] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.2
+[06:42:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.2
+[06:42:52] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[06:42:52] [Server thread/INFO]: Saving players
+[06:42:52] [Server thread/INFO]: Saving worlds
+[06:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[06:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[06:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[06:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SuperiorWorld]'/minecraft:superiorworld
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'SuperiorWorld'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'SuperiorWorld'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'SuperiorWorld'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'SuperiorWorld' in 0.00s
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'SuperiorWorld'
+[06:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'SuperiorWorld'
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (SuperiorWorld): All chunks are saved
+[06:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:42:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:42:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:42:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:42:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

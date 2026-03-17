@@ -1,0 +1,23 @@
+version: 1
+kalebhitam:
+  lobby:
+    world: world
+    x: 181
+    y: 63
+    z: 12
+    yaw: 0.0
+    pitch: 0.0
+  pvp: true
+  gameArea:
+    world: world
+    Top:
+      x: 170
+      y: 254
+      z: 10
+    Bottom:
+      x: 170
+      y: -55
+      z: 10
+  lavaLevel: 253
+  minimumPlayers: 2
+  maximumPlayers: 2
