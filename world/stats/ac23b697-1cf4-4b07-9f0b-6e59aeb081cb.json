@@ -1,23 +1,24 @@
 {
   "stats": {
+    "minecraft:mined": {
+      "minecraft:dead_bush": 2
+    },
     "minecraft:picked_up": {
       "minecraft:stick": 2
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 6106,
-      "minecraft:time_since_rest": 4059,
+      "minecraft:sprint_one_cm": 6713,
+      "minecraft:time_since_rest": 11632,
       "minecraft:fall_one_cm": 225,
-      "minecraft:walk_one_cm": 875,
-      "minecraft:total_world_time": 4059,
-      "minecraft:leave_game": 2,
-      "minecraft:fly_one_cm": 59087,
-      "minecraft:sneak_time": 39,
-      "minecraft:play_time": 4059,
-      "minecraft:jump": 48,
-      "minecraft:time_since_death": 4059
-    },
-    "minecraft:mined": {
-      "minecraft:dead_bush": 2
+      "minecraft:walk_one_cm": 2244,
+      "minecraft:total_world_time": 11632,
+      "minecraft:leave_game": 3,
+      "minecraft:fly_one_cm": 185659,
+      "minecraft:sneak_time": 187,
+      "minecraft:play_time": 11632,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 55,
+      "minecraft:time_since_death": 11632
     }
   },
   "DataVersion": 4671
